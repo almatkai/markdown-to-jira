@@ -3,7 +3,7 @@
   "name": "markdown-to-jira",
   "title": "Markdown to Jira",
   "description": "Format a Markdown text into Jira markup.",
-  "icon": "icon.png",
+  "icon": "assets/icon.png",
   "author": "almatkai",
   "categories": [
     "Documentation",
