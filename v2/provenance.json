@@ -1,0 +1,116 @@
+{
+  "own": {
+    "repository": "https://github.com/almatkai/markdown-to-jira",
+    "commit": "4a6c69069e2bcece239ff42f0755d5b0d054915c",
+    "license": "MIT"
+  },
+  "upstream": {
+    "repository": "https://github.com/raycast/extensions",
+    "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+    "path": "extensions/markdown-to-jira",
+    "author": "theo_brlle",
+    "license": "MIT"
+  },
+  "beta": {
+    "repository": "https://github.com/almatkai/Tezbar",
+    "commit": "fd300e276356587726566026f072563eb9c34cb1",
+    "license": "Apache-2.0",
+    "paths": {
+      "common.rs": "src-tauri/src/native_core/common.rs",
+      "v2_sdk.rs": "src-tauri/src/native_core/extensions/v2_sdk.rs",
+      "v2_runtime.rs": "src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "native.rs": "src-tauri/src/native_core/extensions/native.rs",
+      "platform.rs": "src-tauri/src/native_core/platform.rs",
+      "NATIVE_V2_FORMAT.md": "docs/NATIVE_V2_FORMAT.md",
+      "extension-v2.schema.json": "schemas/extension-v2.schema.json",
+      "LICENSE": "LICENSE"
+    }
+  },
+  "npm": {
+    "jira2md": {
+      "version": "3.0.0",
+      "resolved": "https://registry.npmjs.org/jira2md/-/jira2md-3.0.0.tgz",
+      "integrity": "sha512-KTvebiEA7UC+Ab16nW+lcpFi/fbXRhpVkZPUiQXxEzSc2wB/aee2KuWXfzL+jhHN6vOUI34k4v8kScxgHgZiYw==",
+      "dependencies": {
+        "marked": "^4.0.12"
+      }
+    },
+    "marked": {
+      "version": "4.3.0",
+      "resolved": "https://registry.npmjs.org/marked/-/marked-4.3.0.tgz",
+      "integrity": "sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==",
+      "bin": {
+        "marked": "bin/marked.js"
+      },
+      "engines": {
+        "node": ">= 12"
+      }
+    }
+  },
+  "icon": {
+    "bytes": 13159,
+    "sha256": "d44cd5561594f166f1414a1adada6c1da8004d9c12dcd2d2ae39b7299a27cd9c"
+  },
+  "files": {
+    "tests/fixtures/own/LICENSE": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81",
+    "tests/fixtures/own/assets/icon.png": "d44cd5561594f166f1414a1adada6c1da8004d9c12dcd2d2ae39b7299a27cd9c",
+    "tests/fixtures/own/package-lock.json": "74888851dc73a45c2df91ee78bd9882bfec7601a799bfd311acf6d68653c21e7",
+    "tests/fixtures/own/package.json": "e068aeb88e3e7485a613f0e5d3e8d08910690147da3f2528211a81bfddda225c",
+    "tests/fixtures/own/raycast-env.d.ts": "68d2892a60e8c98ead28164309c2433e1ef1a6a39dc43d70a1c3c123b1bf842d",
+    "tests/fixtures/own/src/jira2md.d.ts": "b6a02b441b06787b19b8495de56eb7708d0a4b8b6ddfab889f6c45788c6ab7d8",
+    "tests/fixtures/own/src/markdown-to-jira.ts": "e722acc8578525778fa0fff045323319e7fe37550e4d715d990fc0d5056b2b52",
+    "tests/fixtures/own/test/smoke.test.ts": "6d09902dd28bf893585a13dabb14eebb9ac78a48123102add1df44e8dd7865b8",
+    "tests/fixtures/own/tsconfig.json": "bb151e8c2e5442f6f9e42b27c08d88b0f7d2c5c127268ce0aedab2ef964b1eee",
+    "tests/fixtures/upstream/LICENSE": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+    "tests/fixtures/upstream/extensions/markdown-to-jira/assets/icon.png": "d44cd5561594f166f1414a1adada6c1da8004d9c12dcd2d2ae39b7299a27cd9c",
+    "tests/fixtures/upstream/extensions/markdown-to-jira/package.json": "4a9535933fda747ee5906e763183261c357a1845d2d3b9b6566ebddb8814b93c",
+    "tests/fixtures/upstream/extensions/markdown-to-jira/src/markdown-to-jira.ts": "e722acc8578525778fa0fff045323319e7fe37550e4d715d990fc0d5056b2b52",
+    "tests/fixtures/beta/LICENSE": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+    "tests/fixtures/beta/NATIVE_V2_FORMAT.md": "8bf9315ad047326dd6737587ca5491fc35faf5e3f92a2d9c63f596be0c8f7b7a",
+    "tests/fixtures/beta/common.rs": "280a0a2f0dd04a8570b320aafc0c3ece0f5de8ddb21c363645567d6a35d84da7",
+    "tests/fixtures/beta/extension-v2.schema.json": "6d5afda1b652605982104bdf16d1547547b98dfd707a7b2969316406c49f32af",
+    "tests/fixtures/beta/native.rs": "3192be6beccc110cd6daa22db412e0f90685957ec51b3c71103b78e239978691",
+    "tests/fixtures/beta/platform.rs": "75fa7ce4204edbbdb0f4a5410895b32239939b707256c484dc3c4f9de390b5a1",
+    "tests/fixtures/beta/v2_runtime.rs": "df96675ba916a3d70b8e0e5da76f7a9422d238cc3fbe3a5a6178fef21662a6a0",
+    "tests/fixtures/beta/v2_sdk.rs": "4f987346f863db9a7bd6aa1d5a99e149925dc69a44d629727ccc80a567cd27c2",
+    "vendor/jira2md/.eslintignore": "8587d26f3cf3ad42aedf25f499928ae624c96b40d4adf4a080117768a71b29f7",
+    "vendor/jira2md/.eslintrc.json": "40f060356c882d64798b1ae4ed947334d9e569f05a47ea0a40bab57eeb8f189b",
+    "vendor/jira2md/.prettierignore": "8587d26f3cf3ad42aedf25f499928ae624c96b40d4adf4a080117768a71b29f7",
+    "vendor/jira2md/.prettierrc": "5bac8c5618b9f76a3533b25400c1c0517e5c91f8593038643fc36e91e96de4ac",
+    "vendor/jira2md/HISTORY.md": "6c2b16dac5907975c7ec2aaf49d57a747bfd99fb06e94beb27493944379c08a5",
+    "vendor/jira2md/LICENSE.md": "c45e5c97e386fbe8e0e866ceba5ea34399e4a3c22b020c65d379db2f4d7be354",
+    "vendor/jira2md/README.md": "34ca786f1130631771a683c1b04381cb0d9f5ad151ec3e90c60410170da097e7",
+    "vendor/jira2md/index.js": "626cd66092cbabb7a866a4d575742deaaf645149b9ee285bf832854ff8473094",
+    "vendor/jira2md/jsdoc.json": "ba1845ca4e0254007f2a3c068572975d401a76af4ac2fb8a14a9c086b5554c20",
+    "vendor/jira2md/package.json": "39d5d999fb6fd981a3b1dc537f0dbdbd3e6f73970ded995d1b5d789885e698c6",
+    "vendor/jira2md/package.tgz": "2bb3371c72c1082701d38ded70b7c67244afc2d45fe5e307fe37e88bedf83815",
+    "vendor/jira2md/test/jira2md.js": "3dfee322397463b3dcdd808715fca45591acafcce38ba53f4d97e0feac578830",
+    "vendor/jira2md/test/md2jira.js": "0ceab8eb9c8a0be94c14d47b7acb72e387a21972ffba71e8561636d24db6661f",
+    "vendor/jira2md/test/test.html": "fdca3c08088e7f88ea78e1c90637e3b83589a44ca65551f751c95aab0b717741",
+    "vendor/jira2md/test/test.jira": "f08b4a7dd5325eee9318d9f2b924d233079a92c4803e77c17d340103bef56121",
+    "vendor/jira2md/test/test.md": "5f260da267ed3ce955692a46ec57406b00d8103198d60153adb1a3f49d4b58bd",
+    "vendor/jira2md/test/to_html.js": "1c5372963d58dd733c62f4932d19272179b6aff228082ee1bb867a30dbb663dc",
+    "vendor/marked/LICENSE.md": "8e3a3f82f59a60958f56ca08f445647c32a4733dc7ca6c2c46f6eb898471ab9c",
+    "vendor/marked/README.md": "910909b4be3122a6ef7ce6571116c769210e90cc4b95a2c94e653a0298cbf265",
+    "vendor/marked/bin/marked.js": "f3caf7658f30835405a308d6e7a71c414b31a824013eb116bf94b49f313d468f",
+    "vendor/marked/lib/marked.cjs": "81eb792b3a3a255b6a06a8da7363305c1dc827db2cd4d22200b9dd454227b930",
+    "vendor/marked/lib/marked.esm.js": "8da585ba07277fbed079acafdb08da48bb190d25406d043328ddcbaed8146d74",
+    "vendor/marked/lib/marked.umd.js": "0fa8bb1eaf15ccc5fa6b2dbdabf2603466a197f5b176efffd9831b425d821821",
+    "vendor/marked/man/marked.1": "3a9c4b90f26b7222c4f96ea6bb90708855dbd5e38901fb070613ff172c1449e8",
+    "vendor/marked/man/marked.1.txt": "85d31094d2971518332b6ddcfa255172cea02db85c8b6e4d4d2c229ca45b0ae0",
+    "vendor/marked/marked.min.js": "c68075672d976e4777390560baa112194855bd4404b13647da4855aae1f9360c",
+    "vendor/marked/package.json": "e3814fba8593b44e4e933881076929a7943ac50bc862c4430b06c20ad225453f",
+    "vendor/marked/package.tgz": "bc795399d6e7c096521080d66ce6ca96a00875b4bb0df36e0f041815484f633b",
+    "vendor/marked/src/Hooks.js": "4733c9d3dec8fb729c3957ddaf53ba64de2cabf3f59abf1990d17fda1a5f53d4",
+    "vendor/marked/src/Lexer.js": "75196f2434f757bda9c4a9320eb93f53e7c7788b3c511e50945a52cd1a77a5d4",
+    "vendor/marked/src/Parser.js": "576a2c4fa9eb7c664a4926dec677c46e5ce5124ff3cc08e05fcc5976dcaa5cb7",
+    "vendor/marked/src/Renderer.js": "a0bc03af4b43b103175a061704a716a0bb24be3312844b35a03dd079e67c6f14",
+    "vendor/marked/src/Slugger.js": "90cd001d70a001ff488c51e59482cfabc5ddd583f8625caaadf8bba9ce047375",
+    "vendor/marked/src/TextRenderer.js": "455701e607afcced9b6d178482eb3df3daa2ab3220910afceb76e4b430893a6e",
+    "vendor/marked/src/Tokenizer.js": "0268e6f8e2b6efb33bbfed51760985b450d6967458406a50aa1afbb2a878df04",
+    "vendor/marked/src/defaults.js": "f18cdea5e7208588f138394282bc137ec3166c4e0d8d6031f513d365c13cecbb",
+    "vendor/marked/src/helpers.js": "ed64e1ecbdba1bfa7226b3342cacb41c51bb8f8b30eb853c29afab80d9bf8ac5",
+    "vendor/marked/src/marked.js": "dbdc62014c59d088d8954179992dcc612bbd57a270638d39b6496a1cb7ec658f",
+    "vendor/marked/src/rules.js": "a1002c678744e38f406fa55a8524a36a29b5ae3615c632d4cb314c37adab3514"
+  }
+}
