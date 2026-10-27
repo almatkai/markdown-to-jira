@@ -1,0 +1,4 @@
+/target/
+/.work/
+!vendor/**/dist/
+!vendor/**/dist/**

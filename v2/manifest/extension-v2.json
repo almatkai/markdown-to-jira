@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.markdown-to-jira",
+  "slug": "markdown-to-jira",
+  "name": "Markdown to Jira",
+  "version": "0.1.0",
+  "description": "Format a Markdown text into Jira markup. Original Raycast extension by theo_brlle; Tezbar V1 by almatkai; native conversion derived from jira2md 3.0.0 by Fokke Zandbergen and contributors.",
+  "icon": "/extensions/icons/markdown-to-jira.png",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.markdown-to-jira"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "commands": [
+    {
+      "name": "markdown-to-jira",
+      "title": "Markdown to Jira",
+      "description": "Format a Markdown text into Jira markup.",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust"
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Real selected-text, clipboard, foreground focus and paste QA has not been run."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Real selected-text, clipboard, foreground focus and paste QA has not been run."
+    }
+  ]
+}

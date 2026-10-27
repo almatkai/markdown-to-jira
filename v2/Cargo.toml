@@ -1,0 +1,23 @@
+[package]
+name = "tezbar-markdown-to-jira"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT AND Apache-2.0 AND BSD-3-Clause AND Unicode-3.0"
+description = "Pinned jira2md 3.0.0 text conversion for Tezbar Native V2"
+repository = "https://github.com/almatkai/markdown-to-jira"
+readme = "README.md"
+include = ["/.gitignore", "/src/**", "/tests/**", "/scripts/**", "/vendor/**", "/licenses/**", "/manifest/**", "/README.md", "/INTEGRATION.md", "/VALIDATION.md", "/NOTICE.md", "/provenance.json", "/Cargo.toml", "/Cargo.lock"]
+
+[dependencies]
+fancy-regex = "=0.14.0"
+
+[dev-dependencies]
+serde_json = "=1.0.140"
+tokio = { version = "=1.44.1", features = ["rt", "macros"] }
+tempfile = { version = "=3.19.1", default-features = false }
+log = "=0.4.27"
+
+[[test]]
+name = "beta_adapter"
+path = "tests/beta_adapter.rs"
